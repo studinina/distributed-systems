@@ -4,7 +4,10 @@ public class Task1 {
         System.out.println("Hello, World!");
         ThreadWriter thread1 = new ThreadWriter();
         ThreadWriter2 thread2 = new ThreadWriter2();
+        ThreadWriter3 thread3 = new ThreadWriter3();
         thread1.start();
         thread2.start();
+        thread3.start();
+
     }
 }
