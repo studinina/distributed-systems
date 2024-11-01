@@ -7,7 +7,7 @@ public class ThreadWriter extends Thread {
                 // Kurze Verzögerung, um das Interleaving zu beobachten
                 Thread.sleep(4000);
             } catch (InterruptedException e) {
-                e.printStackTrace();
+                return;
             }
         }
     }
