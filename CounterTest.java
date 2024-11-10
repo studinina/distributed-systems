@@ -10,7 +10,7 @@ public class CounterTest {
         // Erster Thread für die Inkrementierung
         Thread incrementThread = new Thread() {
             public void run() {
-                for (int i = 0; i < 4000; i++) {
+                for (int i = 0; i < 100000; i++) {
                     counter.increment();
                     counterSynchronized.increment();
                     
@@ -21,7 +21,7 @@ public class CounterTest {
         // Zweiter Thread für die Dekrementierung
         Thread decrementThread = new Thread() {
             public void run() {
-                for (int i = 0; i < 4000; i++) {
+                for (int i = 0; i < 100000; i++) {
                     counter.decrement();
                     counterSynchronized.decrement();
                 }
