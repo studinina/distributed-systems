@@ -10,8 +10,8 @@ public class Main {
     }
 
     private static void Aufgabenteil02() {
-        // Starte den Server auf Port 4444
-        SocketServer server = new SocketServer(4444);
+        // Starte den Server auf Port 5555 
+        SocketServer server = new SocketServer(5555);
         Thread serverThread = new Thread(server);
         serverThread.start(); // Startet den Server in einem neuen Thread
 

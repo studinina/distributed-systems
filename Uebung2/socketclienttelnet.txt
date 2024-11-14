@@ -1,0 +1,243 @@
+@studinina ➜ /workspaces/distributed-systems (mauzi_test) $ telnet stud.fh-wedel.de 80
+Trying 213.209.120.215...
+Connected to stud.fh-wedel.de.
+Escape character is '^]'.
+GET / HTTP/1.1
+Host: stud.fh-wedel.de
+Connection: close
+
+HTTP/1.1 200 OK
+Date: Thu, 14 Nov 2024 11:29:06 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Expires: Fri, 15 Nov 2024 11:29:06 GMT
+Content-Length: 7692
+Last-Modified: Sat, 23 Dec 2023 10:05:58 GMT
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html; charset=ISO-8859-1
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org./TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <meta name="generator" content="xml2html HTML Generator &copy; uwe@fh-wedel.de"/>
+    <link rel="shortcut icon" type="image/ico" href="https://www.fh-wedel.de/favicon.ico"/>
+    <meta name="keywords" content="Wedel,Fachhochschule,FH,FH Wedel, Fachhochschule Wedel, Informatik, Wirtschaftsinformatik, Medieninformatik, Technische Informatik, Wirtschaftsingenieur, Physikalische Technik,Betriebswirtschaftslehre,BWL,Diplom,Master,Master of Science,Science,Hochschule,Ausbildung,Studium,Studieren,Studenten,Student,University,Applied,Sciences,Wirtschaft,Bachelor,Auslandsprogramme,BSC,MSC"/>
+    <meta name="description" content="International, praxisnah und interdisziplin&auml;r studieren - an der Fachhochschule Wedel, direkt vor den Toren Hamburgs! Entscheiden Sie sich f&uuml;r die leistungsstarke Uni-Alternative in den Studienbereichen Informatik, Wirtschaft und Technik. Informieren Sie sich hier und jetzt &uuml;ber unsere kombinierten Bachelor-/Masterstudieng&auml;nge, das umfangreiche Lehrangebot sowie die hervorragenden Ranking-Ergebnisse!"/>
+
+
+        <link href="/css/standard_main.css" rel="stylesheet" type="text/css" media="all" title="Bildschirmansicht"/>
+        <link href="/css/standard_main_print.css" rel="stylesheet" type="text/css" media="print"/>
+
+        <link href="/css/standard_main_print.css" rel="alternate stylesheet" type="text/css" title="Druckansicht"/>
+
+        <!--[if lte IE 6]>
+        <link href="/css/standard_main_ie.css" rel="stylesheet" type="text/css"/>
+        <![endif]-->
+
+
+
+
+    <title>FH&nbsp;Wedel - Studenten Homepages der FH-Wedel</title>
+<link rel="shortcut icon" type="image/ico" href="https://www.fh-wedel.de/favicon.ico"/>
+
+  </head>
+
+  <body class="text">
+
+    <div id="page_margins">
+      <div id="page" class="hold_floats">
+         <!-- #Header: Anfang -->
+        <hr class="Abschnittstrenner" title="Beginn des Kopfbereiches."/>
+        <div id="header" class="fhw_header">
+
+          <div id="Navigationshilfe"><a name="Navigationshilfe"></a>
+            Navigationshilfe:
+            <ul>
+
+
+
+
+              <li><a href="#Seiteninhalt" title="Der eigentliche Inhalt dieser Seite">Direkt zum Inhaltsbereich springen</a></li>
+              <li><a href="#Hauptnavigation" title="Links zu anderen Seiten dieser Web-Pr�senz.">Direkt zur Hauptnavigation springen</a></li>
+            </ul>
+          </div>
+
+
+
+
+          <div id="logo">
+            <a href="/"><img src="icons/fh_logo2.gif" width="30" alt="FH Wedel - University of Applied Sciences" height="90" title="Fachhochschule Wedel"/></a>
+
+          </div>
+
+          <div id="breadcrumb">
+            <div id="breadcrumb_content">
+              <span class="screen_invisible">Ihre Position in dieser Webpr�senz: <br/></span>
+              Sie sind hier:&nbsp;<a href="/">Startseite</a>
+               &gt; <a href="index.html">Studenten Webseiten</a>
+            </div>
+          </div>
+        </div>
+        <!-- #Header: Ende -->
+
+
+
+        <!-- #main: Beginn Inhaltsbereich -->
+        <div id="main">
+
+
+
+          <!-- #col1: Erste Float-Spalte des Inhaltsbereiches -->
+          <div id="col1"><a id="Nachrichtenbereich" name="Nachrichtenbereich"></a>
+            <div id="col1_content" class="clearfix">
+              &nbsp;
+            </div>
+          </div>
+          <!-- #col1: - Ende -->
+
+
+
+          <!-- #col2: zweite Float-Spalte des Inhaltsbereiches -->
+          <hr class="Abschnittstrenner" title="Beginn des Inhaltsbereiches."/>
+          <div id="col2"><a id="Seiteninhalt" name="Seiteninhalt"></a>
+            <div id="col2_content" class="clearfix">
+
+
+
+
+<h1 class="firstHeadline">Studenten-Homepages der Fachhochschule Wedel</h1>
+
+F&uuml;r den Inhalt der jeweiligen Seite sind ausschlie&szlig;lich die
+Studenten selbst verantwortlich.
+
+
+
+
+
+            </div>
+          </div>
+          <!-- #col2: - Ende -->
+
+
+
+          <!-- #col3: Statische Spalte des Inhaltsbereiches -->
+          <hr class="Abschnittstrenner" title="Beginn der Hauptnavigation."/>
+          <div id="col3"><a id="Hauptnavigation" name="Hauptnavigation"></a>
+            <div id="col3_content" class="clearfix">
+
+              <h1 class="invisible">Hauptnavigation</h1>
+              <div class="navbar">
+                      <ul>
+
+   <li class="normalerMenuePunkt">
+     <a class="" href="https://stud.fh-wedel.de/webmail/">Studenten Webmail</a>
+        </li>
+
+   <li class="normalerMenuePunkt">
+     <a class="" href="https://stud.fh-wedel.de/handout/">Handoutbereich der FH Wedel</a>
+        </li>
+
+   <li class="normalerMenuePunkt">
+     <a class="" href="https://stud.fh-wedel.de/quota/">Quota-Abfrage</a>
+        </li>
+
+   <li class="normalerMenuePunkt">
+     <a class="" href="http://intern.fh-wedel.de/~rzinfo">Rechenzentrum Informationen</a>
+        </li>
+
+   <li class="aktuellerMenuePunkt">
+     <a class="" href="index.html">Studenten Webseiten</a>
+          <ul>
+
+   <li class="normalerMenuePunkt">
+     <a class="" href="inf-homepages.html">Informatik</a>
+            </li>
+
+   <li class="normalerMenuePunkt">
+     <a class="" href="ii-homepages.html">Technische Informatik</a>
+            </li>
+
+   <li class="normalerMenuePunkt">
+     <a class="" href="wi-homepages.html">Wirtschaftsinformatik</a>
+            </li>
+
+   <li class="normalerMenuePunkt">
+     <a class="" href="di-homepages.html">Wirtschaftsingenieurwesen</a>
+            </li>
+
+   <li class="normalerMenuePunkt">
+     <a class="" href="pi-homepages.html">Physikalische Technik</a>
+            </li>
+
+   <li class="normalerMenuePunkt">
+     <a class="" href="mi-homepages.html">Medieninformatik</a>
+            </li>
+
+   <li class="normalerMenuePunkt">
+     <a class="" href="bwl-homepages.html">BWL</a>
+            </li>
+
+   <li class="normalerMenuePunkt">
+     <a class="" href="ai-homepages.html">Wirtschaftsingenieurwesen (Aufbau)</a>
+            </li>
+
+   <li class="normalerMenuePunkt">
+     <a class="" href="ia-homepages.html">Informatik Assistenten</a>
+            </li>
+
+   <li class="normalerMenuePunkt">
+     <a class="" href="ea-homepages.html">Elektronik Assistenten</a>
+            </li>
+
+   <li class="normalerMenuePunkt">
+     <a class="" href="pa-homepages.html">Physikalische-Technische Assistenten</a>
+            </li>
+
+   <li class="normalerMenuePunkt">
+     <a class="" href="ms-homepages.html">Master of sciences (Aufbau)</a>
+            </li>
+
+   <li class="normalerMenuePunkt">
+     <a class="" href="https://intern.fh-wedel.de/mitarbeiter/lah/rz-informationen/fuer-studierende-und-schueler/eigene-seite">Infos zur Erstellung</a>
+
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+              </div>
+
+            </div>
+            <div class="clear_columns"/>
+          </div>
+          <!-- #col3: - Ende -->
+
+
+        </div>
+        <!-- #main: - Ende -->
+
+
+
+        <!-- #Footer: Beginn Fu�zeile -->
+        <hr class="Abschnittstrenner" title="Beginn des Fu�bereiches."/>
+        <div id="footer">
+                <a href="/sonstiges/impressum/" onfocus="blurLink(this);">Impressum</a>&nbsp;&#124;&nbsp;<a href="/sonstiges/kontakt/" onfocus="blurLink(this);">Kontakt</a>&nbsp;&#124;&nbsp;<a href="/sonstiges/sitemap/" onfocus="blurLink(this);">Sitemap</a>&nbsp;&#124;&nbsp;<a href="/sonstiges/suche/" onfocus="blurLink(this);">Suche</a>&nbsp;&#124;&nbsp;<a href="/sonstiges/news/" onfocus="blurLink(this);">News</a>
+        </div>
+        <!-- #Footer: Ende -->
+
+
+      </div>
+    </div>
+
+  </body>
+</html>
+
+
+
+
+Connection closed by foreign host.
