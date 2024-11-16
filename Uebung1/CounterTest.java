@@ -1,3 +1,4 @@
+package Uebung1;
 public class CounterTest {
     //  InterruptedException signalisiert, dass ein Thread unterbrochen wurde, 
     //während er auf eine bestimmte Aktion wartet, schläft oder blockiert ist. 

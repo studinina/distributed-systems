@@ -1,11 +1,13 @@
+package Uebung3;
+
 import java.io.OutputStream;
 import java.net.Socket;
 import java.time.Instant;
-import uebung3.LogMessage; 
+import Uebung3.LogMessage;
 
 public class LogClient {
     public static void main(String[] args) {
-        try (Socket socket = new Socket("localhost", 12345);
+        try (Socket socket = new Socket("localhost", 5555);
              OutputStream outputStream = socket.getOutputStream()) {
 
             // Erstelle eine Log-Nachricht
@@ -21,6 +23,7 @@ public class LogClient {
             logMessage.writeTo(outputStream);
             outputStream.flush();
 
+            System.out.println("Log-Nachricht gesendet.");
         } catch (Exception e) {
             e.printStackTrace();
         }

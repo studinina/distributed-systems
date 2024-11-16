@@ -1,3 +1,4 @@
+package Uebung1;
 class CounterSynchronized {
     private int c = 0;
 

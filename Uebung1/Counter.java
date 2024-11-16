@@ -1,3 +1,4 @@
+package Uebung1;
 class Counter {
     private int c = 0;
 
