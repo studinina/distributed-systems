@@ -1,0 +1,25 @@
+syntax = "proto2";
+
+import "google/protobuf/timestamp.proto";
+
+enum Severity {
+  DEBUG = 0;
+  INFO = 1;
+  WARN = 2;
+  ERROR = 3;
+  FATAL = 4;
+}
+
+message LogMessage {
+    message LogCreator {
+      required string creator_name = 1;
+      required string location = 2;
+    }
+    
+    required google.protobuf.Timestamp timeCreated = 1;
+    optional LogCreator creator = 2;
+    required Severity severity = 3;
+    required string message_body = 4;
+
+}
+

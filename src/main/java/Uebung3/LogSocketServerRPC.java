@@ -1,0 +1,42 @@
+package Uebung3;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class LogSocketServerRPC implements Runnable {
+    private int port;
+    private String logFilePath;
+
+    public LogSocketServerRPC(int port, String logFilePath) {
+        this.port = port;
+        this.logFilePath = logFilePath;
+    }
+
+    public void startServer() {
+        boolean runServer = true;
+        try {
+            ServerSocket sSocket = new ServerSocket(port);
+            // sSocket = new ServerSocket(port);
+            while (runServer) {
+                Socket socket = sSocket.accept();
+
+                System.out.println("Neue Socketadresse: " + socket.getInetAddress() + ":" + socket.getPort());
+
+                LogMessageHandlerRPC reqHandler = new LogMessageHandlerRPC(socket, logFilePath);
+                Thread t = new Thread(reqHandler);
+                t.start();
+            }
+            sSocket.close();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            runServer = false;
+        }
+    }
+
+    @Override
+    public void run() {
+        startServer();
+    }
+}
