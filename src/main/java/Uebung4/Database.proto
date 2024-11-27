@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+option java_package = "com.example.grpc";
+option java_outer_classname = "DatabaseProto";
+
+service DatabaseService {
+  rpc getRecord (GetRecordRequest) returns (GetRecordResponse);
+  rpc addRecord (AddRecordRequest) returns (AddRecordResponse);
+  rpc getSize (GetSizeRequest) returns (GetSizeResponse);
+}
+
+message GetRecordRequest {
+  int32 index = 1;
+}
+
+message GetRecordResponse {
+  string record = 1;
+}
+
+message AddRecordRequest {
+  int32 index = 1;
+  string record = 2;
+}
+
+message AddRecordResponse {
+  bool success = 1;
+}
+
+message GetSizeRequest {}
+
+message GetSizeResponse {
+  int32 size = 1;
+}
